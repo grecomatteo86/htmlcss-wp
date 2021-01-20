@@ -60,11 +60,19 @@ li a{
 }
 
 .hero_box_text{
-  width: 50%;
+  width: 36%;
   position: absolute;
   top: 70%;
   left: 5%;
   color: white;
+}
+
+.hero_box_text .hero_title{
+  font-weight: lighter;
+}
+
+.hero_box_text .hero_paragraph{
+  font-size: 12px;
 }
 /*/hero*/
 
