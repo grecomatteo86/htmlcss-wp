@@ -146,12 +146,6 @@ li a{
   margin: 10px 0;
 }
 
-/*/layout*/
-
-
-
-
-
 /*clearfix*/
 .columns_box::after{
   content: '';
@@ -164,10 +158,20 @@ li a{
   background-color: rgb(172, 207, 230);
 }
 /*/clearfix*/
+/*/layout*/
 
-
+/*footer*/
 .footer{
   height: 10%;
   background-color: rgb(135, 37, 250);
   margin-top: 10px;
 }
+
+.footer>p{
+  text-align: center;
+}
+
+.heart{
+  color: red;
+}
+/*/foote*/
