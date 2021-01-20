@@ -15,10 +15,6 @@ body{
 }
 
 /*logo+nav_bar*/
-.header{
-  background-color: rgb(227, 125, 228);
-}
-
 .logo{
   width: 20%;
   border-right: 1px solid rgb(243, 243, 243);
@@ -33,6 +29,7 @@ ul li{
   list-style: none;
   display: inline-block;
   margin-right: 5px;
+  text-transform: uppercase;
 }
 
 .nav_bar{
@@ -47,7 +44,6 @@ li a{
 
 /*hero*/
 .hero_container{
-  background-color: rgba(0, 0, 0, 0.5);
   margin: 20px 0;
   position: relative;
 }
@@ -73,14 +69,6 @@ li a{
 /*/hero*/
 
 /*layout*/
-.layout_container{
-  background-color: rgb(24, 137, 251);
-}
-
-.second_header{
-  background-color: rgb(172, 207, 230);
-}
-
 .second_header p{
   color: rgb(165, 165, 165);
 }
@@ -166,19 +154,18 @@ li a{
 
 .right_column, .center_column, .left_column{
   float: left;
-  background-color: rgb(172, 207, 230);
 }
 /*/clearfix*/
 /*/layout*/
 
 /*footer*/
 .footer{
-  background-color: rgb(135, 37, 250);
   margin-top: 10px;
 }
 
 .footer>p{
   text-align: center;
+  padding: 30px;
 }
 
 .heart{
@@ -192,5 +179,6 @@ li a{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
 }
