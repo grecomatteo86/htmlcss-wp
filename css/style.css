@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container{
   width: 80%;
   height: 1000px;
@@ -48,7 +52,7 @@ li a{
   position: relative;
 }
 
-.hero_image img{
+.hero_box_image img{
   width: 100%;
   height: 440px;
   object-fit: cover;
@@ -71,21 +75,48 @@ li a{
   bottom: 0;
   background-color: rgba(0,0,0,0.5);
 } */
-
 /*/hero*/
 
-
-
-
-.layout{
-  height: 450px;
+/*layout*/
+.layout_container{
   background-color: rgb(24, 137, 251);
 }
 
-.second_title{
-  height: 50px;
+.second_header{
   background-color: rgb(172, 207, 230);
 }
+
+.second_header p{
+  color: rgb(165, 165, 165);
+}
+
+.columns_box{
+  width: 100%;
+}
+
+/*right_column*/
+.right_column{
+  width: 20%;
+}
+
+.rc_box_image{
+  width: 100%;
+}
+
+.rc_box_image>img{
+  width: 100%;
+}
+/*/right_column*/
+
+/*center_column*/
+
+/*/center_column*/
+
+/*/layout*/
+
+
+
+
 
 .columns_box{
   margin: 10px 0;
@@ -110,7 +141,7 @@ li a{
 }
 
 .right_column, .left_column{
-  width: 200px;
+  /* width: 200px; */
 }
 
 /*clearfix*/
