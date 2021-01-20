@@ -109,9 +109,20 @@ li a{
 /*/right_column*/
 
 /*center_column*/
+.center_column{
+  width: 40%;
+}
 
+.cc_box_image{
+  width: 100%;
+}
+
+.cc_box_image>img{
+  width: 100%;
+  height: 206px;
+  object-fit: cover;
+}
 /*/center_column*/
-
 /*/layout*/
 
 
