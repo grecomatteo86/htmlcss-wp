@@ -77,8 +77,13 @@ li a{
 /*/hero*/
 
 /*layout*/
-.second_header p{
+.second_header{
+  padding-bottom: 15px;
+}
+
+.second_header .sh_paragraph{
   color: rgb(165, 165, 165);
+  font-size: 10px;
 }
 
 .columns_box{
