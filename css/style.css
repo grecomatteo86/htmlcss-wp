@@ -105,12 +105,14 @@ li a{
 
 .rc_box_image>img{
   width: 100%;
+  object-fit: cover;
 }
 /*/right_column*/
 
 /*center_column*/
 .center_column{
-  width: 40%;
+  width: 55%;
+  margin: 0 10px;
 }
 
 .cc_box_image{
@@ -123,37 +125,32 @@ li a{
   object-fit: cover;
 }
 /*/center_column*/
-/*/layout*/
 
+/*left_column*/
+.left_column{
+  width: 20%;
+}
 
+.lc_box_image{
+  width: 100%;
+}
 
-
+.lc_box_image>img{
+  width: 100%;
+  height: 206px;
+  object-fit: cover;
+}
+/*/left_column*/
 
 .columns_box{
   margin: 10px 0;
 }
 
-.right_column, .center_column, .left_column{
-  float: left;
-  height: 380px;
-  background-color: rgb(172, 207, 230);
-}
+/*/layout*/
 
-.footer{
-  height: 10%;
-  background-color: rgb(135, 37, 250);
-  margin-top: 10px;
-}
 
-/*columns_editings*/
-.center_column{
-  width: 604px;
-  margin: 0 10px;
-}
 
-.right_column, .left_column{
-  /* width: 200px; */
-}
+
 
 /*clearfix*/
 .columns_box::after{
@@ -161,5 +158,16 @@ li a{
   display: block;
   clear: both;
 }
+
+.right_column, .center_column, .left_column{
+  float: left;
+  background-color: rgb(172, 207, 230);
+}
 /*/clearfix*/
-/*/columns_editings*/
+
+
+.footer{
+  height: 10%;
+  background-color: rgb(135, 37, 250);
+  margin-top: 10px;
+}
