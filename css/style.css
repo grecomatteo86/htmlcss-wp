@@ -29,11 +29,15 @@ ul li{
   list-style: none;
   display: inline-block;
   margin-right: 5px;
-  color: rgb(165, 165, 165);
 }
 
 .nav_bar{
   padding: 20px 0;
+}
+
+li a{
+  text-decoration: none;
+  color: rgb(165, 165, 165);
 }
 /*/logo+nav_bar*/
 
