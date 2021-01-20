@@ -10,10 +10,28 @@
   margin: auto;
 }
 
+/*logo+nav_bar*/
 .header{
-  height: 10%;
   background-color: rgb(227, 125, 228);
 }
+
+.logo{
+  width: 20%;
+  border-right: 1px solid rgb(243, 243, 243);
+  padding: 0 10px;
+}
+
+.logo img{
+  width: 100%;
+}
+
+ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px;
+  color: rgb(165, 165, 165);
+}
+/*/logo+nav_bar*/
 
 .hero{
   height: 300px;
